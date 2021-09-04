@@ -4,6 +4,11 @@ import './write.css'
 const Write = () => {
   return (
     <div className='write'>
+      <img
+        className='writeImg'
+        src='https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260'
+        alt=''
+      />
       <form action='' className='writeForm'>
         <div className='writeFormGroup'>
           <label htmlFor='fileInput'>
